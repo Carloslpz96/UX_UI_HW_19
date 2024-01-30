@@ -1,0 +1,139 @@
+<link>
+
+inline-block {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 900px;
+}
+
+.Logo {
+    width: 23%;
+    align-items: center;
+    text-align: center;
+    size: 5000px;
+    vertical-align: text-top;
+    display: inline-flex;
+    margin-left: 200px;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+    position: absolute;
+	max-width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+header {
+    background-color:black;
+    position: fixed;
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+header ul {
+    width: 50%;
+    margin-left: 600px;
+    vertical-align: text-top;
+    display:inline-flex;
+    margin-right: 200px;
+    color: white;
+    justify-content:space-around;    
+}
+
+body {
+    align-items: center;
+}
+
+heroimg {
+    height: 1500px;
+    padding: 50px;
+    background-size: cover;
+}
+ 
+heroimg img{
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+heroimg p {
+    align-items: center;
+    text-align: center;
+    margin-left: 42%;
+    margin-right: 42%;
+    color: black;
+
+}
+
+heroimg button {
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    size: 200px;
+    margin-bottom: 50px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: black;
+    padding: 3%;
+    position: fixed;
+    height: 50%;
+    width: 100%;
+}
+
+footer ul {
+    align-items:flex-end;
+    width: 75%;
+    margin-left: auto;
+    vertical-align: text-top;
+    display:inline-flex;
+    margin-right: 200px;
+    color: white;
+    justify-content:space-around;    
+}
+
+ul {
+    font-family: "puffin-arcade-chrome", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+    color: white;
+
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    size: 20px;
+}
+
+h1{
+    Font-family: "puffin-arcade-chrome", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffb800;
+    font-size: 64px;
+}
+
+button {
+    Font-family: "puffin-arcade-chrome", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 24px;
+}
+
+
+
